@@ -17,3 +17,7 @@ for x in range(10,40,2):
 triger = True 
 
 while triger 
+
+
+# some comments 
+# some comments from sheikh ubuntu
