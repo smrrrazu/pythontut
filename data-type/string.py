@@ -12,6 +12,12 @@ print(len(str))
 #print the string str from the offset 5
 print(str[5:])
 
+print(str+", this is your father, Razu")
+for x in str:
+	print(x+"....")
+	#time.sleep(1)
+
+
 # We also can use string for the forloop
 for x in str:
 	print(x)
@@ -66,3 +72,9 @@ str3 = '{:,.2f}'.format(296999.2567)
 print(str3)
 
 
+
+
+for x in xrange(1,10):
+	pass
+
+	

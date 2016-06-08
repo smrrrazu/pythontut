@@ -1,3 +1,14 @@
+
+# Matrix type list
+M = [[1, 2, 3], 
+	[4, 5, 6], 
+[7, 8, 9]]
+print(M)
+# Lets get only column 2
+
+col2 = [row[0] for row in M]
+print(col2)
+
 # List type variable
 
 L = [123, 'spam', 1.23]
@@ -29,4 +40,5 @@ b = [5,6,7,8]
 c = [9,10,11,12]
 L = [a,b,c]
 print(L[1])
+
 
